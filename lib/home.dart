@@ -11,10 +11,10 @@ class Home_Screen extends StatelessWidget {
     mq = MediaQuery.of(context).size;
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(90.0),
+        preferredSize: const Size.fromHeight(60.0),
         child: AppBar(
           leading: const Padding(
-            padding: EdgeInsets.only(top: 24, left: 20),
+            padding: EdgeInsets.only(top: 17, left: 20),
             child: Icon(
               CupertinoIcons.doc_text,
               color: Colors.white,
@@ -22,7 +22,7 @@ class Home_Screen extends StatelessWidget {
             ),
           ),
           title: const Padding(
-            padding: EdgeInsets.only(top: 30, left: 10),
+            padding: EdgeInsets.only(top: 17, left: 10),
             child: Text(
               "Problem Statements",
               style: TextStyle(

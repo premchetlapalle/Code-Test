@@ -49,10 +49,10 @@ class _Code_EditorState extends State<Code_Editor> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(80.0),
+        preferredSize: const Size.fromHeight(60.0),
         child: AppBar(
           leading: Padding(
-            padding: const EdgeInsets.only(top: 22, left: 10),
+            padding: const EdgeInsets.only(top: 13, left: 10),
             child: IconButton(
               icon: const Icon(Icons.arrow_back, size: 30, color: Colors.white),
               onPressed: () {
@@ -64,7 +64,7 @@ class _Code_EditorState extends State<Code_Editor> {
             ),
           ),
           title: const Padding(
-            padding: EdgeInsets.only(top: 35, left: 10),
+            padding: EdgeInsets.only(top: 20, left: 10),
             child: Text(
               "Code Editor",
               style: TextStyle(
